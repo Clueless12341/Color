@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Chart</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .color-chart {
+            text-align: center;
+        }
+
+        .color-box {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin: 5px;
+            border: 1px solid #000;
+        }
+
+        .color-name {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body style="background-color: paleturquoise;">
+    <div class="color-chart">
+        <div class="color-box" style="background-color: red;">
+            <div class="color-name">Red</div>
+        </div>
+        <div class="color-box" style="background-color: green;">
+            <div class="color-name">Green</div>
+        </div>
+        <div class="color-box" style="background-color: blue;">
+            <div class="color-name">Blue</div>
+        </div>
+        <div class="color-box" style="background-color: yellow;">
+            <div class="color-name">Yellow</div>
+        </div>
+        <div class="color-box" style="background-color: orange;">
+            <div class="color-name">Orange</div>
+        </div>
+        <div class="color-box" style="background-color: purple;">
+            <div class="color-name">Purple</div>
+        </div>
+        <div class="color-box" style="background-color: pink;">
+            <div class="color-name">Pink</div>
+        </div>
+        <div class="color-box" style="background-color: brown;">
+            <div class="color-name">Brown</div>
+        </div>
+        <div class="color-box" style="background-color: gray;">
+            <div class="color-name">Gray</div>
+        </div>
+        <div class="color-box" style="background-color: #FF00FF;">
+            <div class="color-name">Magenta</div>
+        </div>
+    </div>
+</body>
+</html>
